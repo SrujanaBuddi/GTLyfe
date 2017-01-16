@@ -12,7 +12,7 @@ EstimoteSticker.on('discover', function(estimoteSticker) {
 
 		var connection = mysql.createConnection(
 			{
-				host:'139.59.3.60',
+				host:'198.211.106.52',
 				user : 'gtlyfe',
 				password : 'gt123@lyfe',
 				port : 3306,
