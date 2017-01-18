@@ -12,6 +12,10 @@ EstimoteSticker.on('discover', function(estimoteSticker) {
 
 		var connection = mysql.createConnection(
 			{
+				connectionLimit:1000,
+				connectTimeout:60*60*1000,
+				acquireTimeout:60*60*1000,
+				timeout:60*60*1000,
 				host:'198.211.106.52',
 				user : 'gtlyfe',
 				password : 'gt123@lyfe',
